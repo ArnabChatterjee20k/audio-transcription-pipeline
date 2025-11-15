@@ -12,3 +12,4 @@ wheels/
 # cache files
 cache/
 *.mp3
+*.sqlite

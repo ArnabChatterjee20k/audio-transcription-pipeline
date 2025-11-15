@@ -1,5 +1,6 @@
 from openai import OpenAI
 from pprint import pprint
+
 client = OpenAI(api_key="cant-be-empty", base_url="http://localhost:8001/v1/")
 
 # audio_file = open("audio.mp3", "rb")

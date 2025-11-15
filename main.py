@@ -1,6 +1,3 @@
-def main():
-    print("Hello from audio-transcription-pipeline!")
+from src.api import create_api
 
-
-if __name__ == "__main__":
-    main()
+api = create_api()
