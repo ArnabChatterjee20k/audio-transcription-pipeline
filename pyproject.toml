@@ -1,0 +1,13 @@
+[project]
+name = "audio-transcription-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiosqlite>=0.21.0",
+    "fastapi[standard]>=0.121.2",
+    "openai>=2.8.0",
+    "pytube>=15.0.0",
+    "yt-dlp[default]>=2025.11.12",
+]
